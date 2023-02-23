@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 :root {
   --max-width: 1280px;
@@ -7,9 +10,10 @@
   --border-radius: 25.8px;
   --font-space: 'Space Mono', monospace;
   --font-work: 'Work Sans', sans-serif;
-  --color-dark: #3B3B3B;
+  --color-dark: #2B2B2B;
   --color-dark-grey: #3B3B3B;
   --color-grey: #858584;
+  --color-light-grey: #cccccc;
   --color-white: #ffffff;
   --color-action: #A259FF;
   --gradient-primary: linear-gradient(128.15deg, #A259FF 49.75%, #377DF7 136.56%);
@@ -78,4 +82,11 @@ h5 {
   font-weight: 700;
   font-size: 22px;
   line-height: 160%;
+}
+
+h6 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 110%;
 }
