@@ -1,12 +1,13 @@
 import MainLogo from "./MainLogo";
 import MainNav from "./MainNav";
 import SubscriptionInput from "./SubscriptionInput";
+import styles from './footer.module.scss'
 
 export default function Footer() {
     return (
-        <footer>
+        <footer className={styles.footer}>
             <div className="wrapper">
-                <div>
+                <div className={styles.footer_cols}>
                     <div>
                         <MainLogo />
                         <p>NFT marketplace UI created with Anima for Figma.</p>

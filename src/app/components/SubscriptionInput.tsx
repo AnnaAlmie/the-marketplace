@@ -2,7 +2,7 @@ export default function SubscriptionInput() {
     return (
         <div>
             <input type="text" placeholder="Enter your email here" />
-            <button>Subscribe</button>
+            <button className="">Subscribe</button>
         </div>
     )
 }
