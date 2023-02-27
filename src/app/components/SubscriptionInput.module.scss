@@ -1,0 +1,22 @@
+.subscription_input {
+    @screen md {
+        display: flex;
+
+        input {
+            border-top-right-radius: 0;
+            border-bottom-right-radius: 0;
+            margin-right: calc(var(--border-radius) * -1);
+        }
+    }
+
+    @screen mobile {
+        input {
+            width: 100%;
+        }
+
+        button {
+            width: 100%;
+            margin-top: 16px;
+        }
+    }
+}
