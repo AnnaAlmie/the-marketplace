@@ -4,7 +4,7 @@
         padding: 40px 0;
 
         &_cols {
-            @screen lg {
+            @screen xl {
                 @apply flex justify-between gap-[120px]
             }
         }

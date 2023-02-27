@@ -1,8 +1,9 @@
 .subscription_input {
-    @screen md {
+    @screen sm {
         display: flex;
 
         input {
+            min-width: 273px;
             border-top-right-radius: 0;
             border-bottom-right-radius: 0;
             margin-right: calc(var(--border-radius) * -1);
