@@ -18,7 +18,8 @@ module.exports = {
     screens: {
       ...defaultTheme.screens,
       mobile: { 'min': '0px', 'max': '767px' },
-      tablet: { 'min': '768px', 'max': '1023px' }
+      tablet: { 'min': '768px', 'max': '1023px' },
+      mobtab: { 'min': '0px', 'max': '1023px' }
     }
   },
   plugins: [],

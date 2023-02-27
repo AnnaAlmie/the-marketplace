@@ -1,0 +1,39 @@
+.header {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+
+    @screen lg {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    &_menu {
+        @screen mobtab {
+            position: fixed;
+            top: 0;
+            right: -100%;
+            background: var(--color-dark);
+            padding: 50px;
+            height: 100vh;
+            text-align: center;
+            transition: var(--transition);
+
+            a {
+                display: block;
+                margin-bottom: 20px;
+            }
+        }
+
+        @screen lg {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+
+            a {
+                margin-right: 30px;
+            }
+        }
+    }
+}

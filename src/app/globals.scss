@@ -6,7 +6,6 @@
 
 :root {
   --max-width: 1280px;
-  --padding: 0 115px;
   --border-radius: 20px;
   --font-space: 'Space Mono', monospace;
   --font-work: 'Work Sans', sans-serif;
@@ -51,16 +50,21 @@ a {
 .wrapper {
   width: 100%;
   max-width: var(--max-width);
-  padding: var(--padding);
   margin: 0 auto;
-
-  @screen mobile {
-    padding: 0 30px;
-  }
+  padding-left: 115px;
+  padding-right: 115px;
 
   @screen tablet {
-    padding: 0 72px;
+    padding-left: 72px;
+    padding-right: 72px;
   }
+
+  @screen mobile {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+
 }
 
 // titles 

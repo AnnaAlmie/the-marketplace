@@ -1,7 +1,7 @@
 import Image from 'next/image';
 
 export default function MainLogo() {
-    const logo = "flex whitespace-nowrap"
+    const logo = "flex items-center whitespace-nowrap"
     return (
         <h5 className={logo}>
             <Image src="/Storefront.svg"
